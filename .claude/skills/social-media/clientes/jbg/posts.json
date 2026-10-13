@@ -1,0 +1,167 @@
+{
+  "cliente": "JBG Marketing (@jbg.marketing)",
+  "periodo": "Novembro/2026 · 3 posts por semana + 3 artes de Stories",
+  "estrategia": {
+    "objetivo": "Gerar autoridade e leads (conversas no direct) para serviços de marketing e social media. [PREMISSA: perfil não foi acessado — confirmar nicho, serviços e meta]",
+    "publico": "Donos de pequenos negócios e profissionais autônomos que postam sem estratégia e não vendem pelo Instagram. [a confirmar]",
+    "tom": "Próximo, direto e didático, sem jargão. Fala em 'a gente'.",
+    "pilares": ["Educação (carrosséis)", "Autoridade e opinião (reels)", "Bastidores e prova (feed)", "Oferta e agenda (feed)"]
+  },
+  "posts": [
+    {
+      "data": "2026-11-03", "plataforma": "Instagram", "formato": "Carrossel 18h", "pilar": "Educação",
+      "tema": "5 sinais de que seu Instagram não vende",
+      "objetivo": "Salvamentos e compartilhamentos",
+      "gancho": "Slide 1: 'Seu Instagram posta, mas não vende? Confira os 5 sinais.'",
+      "roteiro": [
+        {"cena": "1", "tempo": "Capa", "visual": "Título grande, fundo da marca", "fala_texto": "5 sinais de que seu Instagram não vende"},
+        {"cena": "2", "tempo": "Slide 2", "visual": "Ícone + frase curta", "fala_texto": "Bio não diz o que você faz nem para quem"},
+        {"cena": "3", "tempo": "Slide 3", "visual": "Ícone + frase curta", "fala_texto": "Você posta sem pilar de conteúdo definido"},
+        {"cena": "4", "tempo": "Slide 4", "visual": "Ícone + frase curta", "fala_texto": "Nenhum post tem CTA claro"},
+        {"cena": "5", "tempo": "Slide 5", "visual": "Ícone + frase curta", "fala_texto": "Muitas curtidas, nenhuma conversa no direct"},
+        {"cena": "6", "tempo": "Slide 6", "visual": "Ícone + frase curta", "fala_texto": "Não existe rotina nem calendário"},
+        {"cena": "7", "tempo": "Slide final", "visual": "Logo + botão visual", "fala_texto": "Quer que a gente analise o seu? Comente ANÁLISE"}
+      ],
+      "legenda": "Postar por postar não é estratégia. Se você se identificou com 2 ou mais sinais, seu perfil está deixando dinheiro na mesa. Salve este post e comente ANÁLISE que a gente olha o seu.",
+      "hashtags": ["#marketingdigital", "#socialmedia", "#instagramparanegocios", "#estrategiadeconteudo", "#jbgmarketing"],
+      "cta": "Comentar ANÁLISE", "direcao_arte": "Paleta e fontes da JBG, 1 ideia por slide, texto grande (mín. 40px)", "audio": "—", "link_canva": ""
+    },
+    {
+      "data": "2026-11-05", "plataforma": "Instagram", "formato": "Reels 18h", "pilar": "Autoridade",
+      "tema": "O que analiso em 60s no seu perfil", "objetivo": "Alcance e visitas ao perfil",
+      "gancho": "'Em 60 segundos eu descubro por que seu perfil não vende.'",
+      "roteiro": [
+        {"cena": "1", "tempo": "0-3s", "visual": "Close, olhando para a câmera", "fala_texto": "Em 60 segundos eu descubro por que seu perfil não vende."},
+        {"cena": "2", "tempo": "3-15s", "visual": "Tela de um perfil + zoom na bio", "fala_texto": "Primeiro, a bio: dá pra entender o que você faz em 3 segundos?"},
+        {"cena": "3", "tempo": "15-30s", "visual": "Zoom na grade de posts", "fala_texto": "Depois a grade: tem padrão ou é um post aleatório atrás do outro?"},
+        {"cena": "4", "tempo": "30-45s", "visual": "Zoom nas legendas", "fala_texto": "Por fim, o CTA: o que a pessoa faz depois de ver seu post?"},
+        {"cena": "5", "tempo": "45-55s", "visual": "Volta ao rosto", "fala_texto": "Quer que eu faça isso no seu? Comenta ANÁLISE."}
+      ],
+      "legenda": "A gente olha 3 coisas antes de qualquer estratégia: bio, grade e CTA. Quer a análise do seu? Comenta ANÁLISE.",
+      "hashtags": ["#marketingdigital", "#dicasdeinstagram", "#socialmedia", "#jbgmarketing"],
+      "cta": "Comentar ANÁLISE", "direcao_arte": "Legenda na tela em todas as falas, cortes a cada 3-4s", "audio": "Voz própria + trilha leve baixa", "link_canva": ""
+    },
+    {
+      "data": "2026-11-06", "plataforma": "Instagram", "formato": "Feed (estático) 18h", "pilar": "Oferta",
+      "tema": "Agenda de novembro: vagas JBG", "objetivo": "Leads (direct)",
+      "gancho": "'Novembro na JBG: X vagas abertas.'", "roteiro": [],
+      "legenda": "Novembro é mês de Black Friday e quem se planeja agora vende mais. Temos poucas vagas para novos clientes. Chame 'VAGA' no direct. [definir nº de vagas e serviços]",
+      "hashtags": ["#agenciademarketing", "#gestaodeinstagram", "#jbgmarketing"],
+      "cta": "Chamar VAGA no direct", "direcao_arte": "Arte limpa: título, nº de vagas, lista de 3 serviços, logo", "audio": "—", "link_canva": "",
+      "observacoes": "Preencher número de vagas e serviços reais antes de produzir."
+    },
+    {
+      "data": "2026-11-10", "plataforma": "Instagram", "formato": "Carrossel 18h", "pilar": "Educação",
+      "tema": "Bio que converte: antes e depois", "objetivo": "Salvamentos",
+      "gancho": "'Mesma empresa, duas bios. Qual vende mais?'",
+      "roteiro": [
+        {"cena": "1", "tempo": "Capa", "visual": "Duas bios lado a lado", "fala_texto": "Mesma empresa, duas bios. Qual vende mais?"},
+        {"cena": "2", "tempo": "Slide 2", "visual": "Bio ANTES com marcações", "fala_texto": "Antes: genérica, sem público, sem CTA"},
+        {"cena": "3", "tempo": "Slide 3", "visual": "Bio DEPOIS com marcações", "fala_texto": "Depois: o que faz + para quem + resultado + CTA"},
+        {"cena": "4", "tempo": "Slide 4", "visual": "Fórmula em 4 caixas", "fala_texto": "Fórmula: Quem ajudo + resultado + prova + chamada"},
+        {"cena": "5", "tempo": "Slide final", "visual": "Logo + CTA", "fala_texto": "Salve para revisar a sua hoje"}
+      ],
+      "legenda": "A bio é a sua vitrine. Em 3 segundos a pessoa decide se fica ou sai. Use a fórmula e atualize a sua hoje.",
+      "hashtags": ["#biodoinstagram", "#marketingdigital", "#instagramparanegocios", "#jbgmarketing"],
+      "cta": "Salvar e revisar a bio", "direcao_arte": "Bio mockup realista, setas e destaques na cor da marca", "audio": "—", "link_canva": "",
+      "observacoes": "Usar exemplo fictício ou de cliente com autorização."
+    },
+    {
+      "data": "2026-11-12", "plataforma": "Instagram", "formato": "Reels 18h", "pilar": "Autoridade",
+      "tema": "Postar todo dia não é estratégia", "objetivo": "Compartilhamentos (opinião)",
+      "gancho": "'Postar todo dia não vai te fazer vender.'",
+      "roteiro": [
+        {"cena": "1", "tempo": "0-3s", "visual": "Close, tom firme", "fala_texto": "Postar todo dia não vai te fazer vender."},
+        {"cena": "2", "tempo": "3-20s", "visual": "Gráfico simples: muita frequência x zero resultado", "fala_texto": "Frequência sem direção é só cansaço. Você produz muito e ninguém compra."},
+        {"cena": "3", "tempo": "20-40s", "visual": "Lista na tela: pilar, objetivo, CTA", "fala_texto": "O que funciona: 3 pilares, 1 objetivo por post e uma chamada clara."},
+        {"cena": "4", "tempo": "40-50s", "visual": "Rosto", "fala_texto": "Menos post, mais intenção. Concorda? Comenta aqui."}
+      ],
+      "legenda": "Constância importa, mas direção importa mais. Você prefere postar mais ou postar melhor?",
+      "hashtags": ["#marketingdigital", "#estrategiadeconteudo", "#socialmedia", "#jbgmarketing"],
+      "cta": "Comentar a opinião", "direcao_arte": "Legenda na tela, cortes rápidos", "audio": "Voz própria", "link_canva": ""
+    },
+    {
+      "data": "2026-11-13", "plataforma": "Instagram", "formato": "Feed (estático) 18h", "pilar": "Bastidores/Prova",
+      "tema": "Pós-reunião: os 7 primeiros dias com a JBG", "objetivo": "Reduzir objeção de quem quer contratar",
+      "gancho": "'O que acontece nos 7 primeiros dias depois que você fecha com a gente.'",
+      "roteiro": [],
+      "legenda": "Contratar agência dá medo do desconhecido. Então a gente mostra o passo a passo: dia 1 briefing, dia 2-3 análise do perfil, dia 4-5 estratégia, dia 6-7 calendário aprovado. [ajustar ao processo real]",
+      "hashtags": ["#agenciademarketing", "#gestaodeinstagram", "#jbgmarketing"],
+      "cta": "Chamar no direct para conversar", "direcao_arte": "Linha do tempo horizontal com 4 marcos e ícones", "audio": "—", "link_canva": "",
+      "observacoes": "Confirmar o processo real da JBG antes de publicar."
+    },
+    {
+      "data": "2026-11-17", "plataforma": "Instagram", "formato": "Carrossel 18h", "pilar": "Educação",
+      "tema": "Mito ou verdade: algoritmo e hashtags", "objetivo": "Compartilhamentos",
+      "gancho": "'Hashtag ainda funciona? Mito ou verdade.'",
+      "roteiro": [
+        {"cena": "1", "tempo": "Capa", "visual": "Carimbo MITO / VERDADE", "fala_texto": "Mito ou verdade: 5 crenças sobre o algoritmo"},
+        {"cena": "2-6", "tempo": "Slides 2 a 6", "visual": "Afirmação + carimbo + explicação em 1 linha", "fala_texto": "Ex.: 'Postar à meia-noite alcança mais' (Mito); 'Salvamento pesa mais que curtida' (Verdade). [validar cada item com dados atuais]"},
+        {"cena": "7", "tempo": "Slide final", "visual": "Logo + CTA", "fala_texto": "Mande para quem ainda acredita no mito #3"}
+      ],
+      "legenda": "Muita gente ainda decide estratégia com base em mito. Salve e mande para alguém que precisa ver isso.",
+      "hashtags": ["#algoritmoinstagram", "#marketingdigital", "#dicasdeinstagram", "#jbgmarketing"],
+      "cta": "Enviar para um amigo", "direcao_arte": "Carimbos vermelho/verde fortes, layout consistente", "audio": "—", "link_canva": "",
+      "observacoes": "Checar cada afirmação antes de produzir; algoritmo muda."
+    },
+    {
+      "data": "2026-11-19", "plataforma": "Instagram", "formato": "Reels 18h", "pilar": "Engajamento",
+      "tema": "Caixinha de perguntas: a JBG responde", "objetivo": "Comentários e proximidade",
+      "gancho": "'Vocês perguntaram, a gente respondeu.'",
+      "roteiro": [
+        {"cena": "1", "tempo": "0-3s", "visual": "Print da caixinha + rosto", "fala_texto": "Vocês perguntaram, a gente respondeu."},
+        {"cena": "2", "tempo": "3-50s", "visual": "3 perguntas, cada uma com pergunta na tela + resposta falada", "fala_texto": "Respostas diretas, 12-15s cada"},
+        {"cena": "3", "tempo": "50-58s", "visual": "Rosto", "fala_texto": "Quer a sua respondida? Deixa nos comentários."}
+      ],
+      "legenda": "As 3 perguntas que mais recebemos. Deixa a sua nos comentários que a gente responde no próximo.",
+      "hashtags": ["#marketingdigital", "#perguntaseresposta", "#jbgmarketing"],
+      "cta": "Deixar pergunta nos comentários", "direcao_arte": "Stickers de pergunta como print, legenda na tela", "audio": "Voz própria",
+      "link_canva": "", "observacoes": "Abrir caixinha nos Stories 2-3 dias antes (ver artes de Stories)."
+    },
+    {
+      "data": "2026-11-20", "plataforma": "Instagram", "formato": "Feed (estático) 18h", "pilar": "Bastidores",
+      "tema": "Um dia na JBG: bastidores sem filtro", "objetivo": "Humanizar a marca",
+      "gancho": "'Uma terça comum aqui na JBG.'", "roteiro": [],
+      "legenda": "Planejamento, café, reunião, design e muito ajuste. Esse é o dia a dia por trás do que vai ao ar. [usar foto real da equipe]",
+      "hashtags": ["#bastidores", "#agenciademarketing", "#jbgmarketing"],
+      "cta": "Perguntar: qual parte do processo vocês querem ver?", "direcao_arte": "Colagem de 3-4 fotos reais com moldura da marca", "audio": "—", "link_canva": "",
+      "observacoes": "Depende de fotos reais da equipe/escritório."
+    },
+    {
+      "data": "2026-11-24", "plataforma": "Instagram", "formato": "Carrossel 18h", "pilar": "Educação/Oferta",
+      "tema": "Black Friday: o plano de 7 dias", "objetivo": "Salvamentos e leads",
+      "gancho": "'Black Friday é daqui a 3 dias. Faça isso em 7 passos.'",
+      "roteiro": [
+        {"cena": "1", "tempo": "Capa", "visual": "Contagem regressiva", "fala_texto": "Black Friday: o plano de 7 dias"},
+        {"cena": "2-8", "tempo": "Slides 2 a 8", "visual": "Um dia por slide", "fala_texto": "Dia 1 oferta; 2 aquecimento; 3 prova social; 4 objeções; 5 abertura; 6 urgência; 7 última chamada. [ajustar]"},
+        {"cena": "9", "tempo": "Final", "visual": "Logo + CTA", "fala_texto": "Quer o plano montado pra você? Chame 'BLACK'"}
+      ],
+      "legenda": "Quem chega na Black Friday sem plano concorre só no preço. Salve este plano e comece hoje.",
+      "hashtags": ["#blackfriday", "#marketingdigital", "#vendasonline", "#jbgmarketing"],
+      "cta": "Chamar BLACK no direct", "direcao_arte": "Cores de alto contraste (preto + cor da marca), números grandes", "audio": "—", "link_canva": "",
+      "observacoes": "Black Friday 2026 cai em 27/11. Postar nesta terça dá 3 dias de antecedência."
+    },
+    {
+      "data": "2026-11-26", "plataforma": "Instagram", "formato": "Reels 18h", "pilar": "Autoridade",
+      "tema": "Os 3 erros de quem só planeja em dezembro", "objetivo": "Alcance",
+      "gancho": "'Se você só vai planejar o ano em dezembro, já perdeu isso.'",
+      "roteiro": [
+        {"cena": "1", "tempo": "0-3s", "visual": "Close", "fala_texto": "Se você só vai planejar o ano em dezembro, já perdeu isso."},
+        {"cena": "2", "tempo": "3-40s", "visual": "3 erros em tela, 1 por vez", "fala_texto": "1) Sem tempo para testar. 2) Sem dados do ano para decidir. 3) Concorrência já planejou."},
+        {"cena": "3", "tempo": "40-50s", "visual": "Rosto", "fala_texto": "Comece em novembro. Agenda aberta no link da bio."}
+      ],
+      "legenda": "Planejamento não é janeiro, é novembro. Quer começar agora? Chame PLANO no direct.",
+      "hashtags": ["#planejamento2027", "#marketingdigital", "#jbgmarketing"],
+      "cta": "Chamar PLANO", "direcao_arte": "Legenda na tela, 3 telas de erro com numeração grande", "audio": "Voz própria", "link_canva": ""
+    },
+    {
+      "data": "2026-11-27", "plataforma": "Instagram", "formato": "Feed (estático) 18h", "pilar": "Posicionamento",
+      "tema": "Quando dizemos NÃO: pedidos que recusamos", "objetivo": "Autoridade e filtro de clientes",
+      "gancho": "'Coisas que a gente recusa fazer, mesmo na Black Friday.'", "roteiro": [],
+      "legenda": "Recusamos: comprar seguidor, prometer resultado garantido, copiar concorrente. Dizer não também é estratégia. [ajustar à realidade da JBG]",
+      "hashtags": ["#marketingdigital", "#etica", "#agenciademarketing", "#jbgmarketing"],
+      "cta": "Perguntar: o que você nunca aceitaria?", "direcao_arte": "Lista com X vermelho e fundo escuro", "audio": "—", "link_canva": "",
+      "observacoes": "Cai na própria Black Friday; considerar trocar por post de última chamada se houver oferta."
+    }
+  ]
+}
