@@ -2,7 +2,7 @@
  "cliente": "JBG Marketing (@jbg.marketing)",
  "periodo": "Novembro/2026 · Terça, quinta e sábado às 18h + Stories leves diários",
  "estrategia": {
-  "objetivo": "Retomar a constância (perfil parado desde 03/07/2025) e gerar pedidos de diagnóstico e orçamento no direct.",
+  "objetivo": "Manter a constância de 3 posts por semana e gerar pedidos de diagnóstico e orçamento no direct.",
   "publico": "Pequenos negócios do litoral norte do RS: estética, gastronomia, saúde/psicologia e eventos.",
   "tom": "Próximo, profissional e leve. Primeira linha forte. A marca fala em 'nós'. Emojis com moderação. CTA: 'Chama a JBG!'",
   "pilares": [
@@ -13,8 +13,8 @@
    "Oferta e convite (5%)"
   ],
   "diagnostico": [
-   "49 posts, 755 seguidores. Último post em 03/07/2025 (cerca de 15 meses parado).",
-   "Maiores curtidas: campanha solidária do RS em colab (539, 04/05/2024), Reels sobre o céu de Torres (296, 21/06/2025). Dicas genéricas ficaram entre 31 e 70.",
+   "49 posts e 755 seguidores na leitura do documento de contexto. ATENÇÃO: o documento dizia que o último post era de 03/07/2025, mas a usuária informou que postou há poucos dias; a data e a lista de posts do documento precisam ser reconferidas.",
+   "Curtidas (do documento, a reconferir): campanha solidária do RS em colab (539, 04/05/2024), Reels sobre o céu de Torres (296, 21/06/2025). Dicas genéricas ficaram entre 31 e 70.",
    "Pontos fracos: dependência de Reels de dica, poucos carrosséis, cases quase só nos destaques, hashtags longas.",
    "Limite da análise: cerca de 28 dos 49 posts visíveis e curtidas públicas, sem Insights."
   ],
@@ -39,21 +39,21 @@
    "plataforma": "Instagram",
    "formato": "Carrossel 18h",
    "pilar": "Bastidores e equipe",
-   "tema": "A JBG voltou: quem somos e o que vem por aí",
-   "objetivo": "Retomar a constância e reapresentar a marca",
-   "gancho": "Slide 1: 'A JBG voltou. Faz um tempo, né?'",
+   "tema": "Quem faz a JBG: conheça a Jéssica e a Laís",
+   "objetivo": "Humanizar a marca e apresentar a equipe",
+   "gancho": "Slide 1: 'Quem está por trás da JBG?'",
    "roteiro": [
     {
      "cena": "1",
      "tempo": "Capa",
      "visual": "Foto real da Jéssica e da Laís",
-     "fala_texto": "A JBG voltou."
+     "fala_texto": "Quem está por trás da JBG?"
     },
     {
      "cena": "2",
      "tempo": "Slide 2",
      "visual": "Foto da equipe",
-     "fala_texto": "Ficamos um tempo em silêncio por aqui, mas o trabalho não parou."
+     "fala_texto": "A gente é a Jéssica e a Laís, e cuidamos do marketing de negócios de Torres."
     },
     {
      "cena": "3",
@@ -74,7 +74,7 @@
      "fala_texto": "Quer que a JBG cuide da sua marca? Chama a JBG!"
     }
    ],
-   "legenda": "Voltamos! 💙 Ficamos um tempo sem postar, mas seguimos fazendo marketing para negócios de Torres. A partir de agora, 3 posts por semana com estratégia de verdade. Conta pra gente: o que você quer ver por aqui? Chama a JBG!",
+   "legenda": "Quem está por trás da JBG? 💙 Somos a Jéssica e a Laís e cuidamos do marketing de negócios de Torres. Em novembro, 3 posts por semana com estratégia de verdade. Conta pra gente: o que você quer ver por aqui? Chama a JBG!",
    "hashtags": [
     "#PequenosNegócios",
     "#MarketingComEstratégia",
@@ -89,7 +89,7 @@
    "responsavel": "Jéssica e Laís (definir quem grava e quem edita)",
    "status": "A produzir",
    "link_canva": "",
-   "observacoes": "Post de recomeço (prioridade nº 1: perfil parado desde 03/07/2025). Usar foto real, não banco de imagem."
+   "observacoes": "Apresentação da equipe. Usar foto real, não banco de imagem."
   },
   {
    "data": "2026-11-05",
