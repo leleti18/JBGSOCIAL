@@ -12,3 +12,8 @@ Fonte: documento "Social JBG - Contexto e diretrizes" (leitura do perfil em 13/1
 - Hashtags: 6 a 8 (marketing + locais + #JBGMarketing)
 - Temas sensíveis (luto, enchentes): tom sóbrio, sem CTA comercial
 - Não publicar nem responder em nome da JBG sem confirmação
+
+## Correções e dados da usuária (13/10/2026)
+- Jéssica é a DONA da JBG. O papel da Laís: a confirmar.
+- O perfil está ativo: post de há 3 dias, colab com a cliente @nutri.jessicapinheiro (formatura em Nutrição), 68 curtidas.
+- Cliente do post acima: candidata a case/prova social (com autorização).
