@@ -68,7 +68,14 @@ def build(data, out):
     s.append(kv_table([("Objetivo", est.get("objetivo")), ("Público", est.get("publico")),
                        ("Tom de voz", est.get("tom")),
                        ("Pilares", ", ".join(est.get("pilares", [])))]))
-    s.append(Spacer(1, 0.6 * cm))
+    s.append(Spacer(1, 0.4 * cm))
+    for titulo, chave in (("Diagnóstico do perfil", "diagnostico"),
+                          ("Datas do período", "datas")):
+        itens = est.get(chave) or data.get(chave)
+        if itens:
+            s.append(p(titulo, H2))
+            s += [p("• " + i) for i in itens]
+    s.append(Spacer(1, 0.4 * cm))
 
     posts = data.get("posts", [])
     s.append(p("Calendário", H2))
@@ -86,6 +93,8 @@ def build(data, out):
                         ("Gancho", x.get("gancho")), ("CTA", x.get("cta")),
                         ("Direção de arte", x.get("direcao_arte")),
                         ("Áudio", x.get("audio")),
+                        ("Responsável", x.get("responsavel")),
+                        ("Status", x.get("status")),
                         ("Link Canva", x.get("link_canva"))])]
         if x.get("roteiro"):
             s += [p("Roteiro", H2),
@@ -97,6 +106,10 @@ def build(data, out):
               p(" ".join(x.get("hashtags", [])), SMALL)]
         if x.get("observacoes"):
             s += [p("Observações", H2), p(x["observacoes"])]
+
+    if data.get("metricas"):
+        s += [PageBreak(), p("Métricas e revisão do mês", H2)]
+        s += [p("• " + m) for m in data["metricas"]]
 
     doc.build(s)
 
