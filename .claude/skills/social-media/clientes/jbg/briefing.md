@@ -26,3 +26,10 @@ Fontes: Canva "Story do Instagram ... Azul" (DAGHB_Xyv3I, 7 págs 1080x1920) e "
 - Serviços materiais: Gestão de Mídias Sociais (1ª etapa: briefing, estratégia, análise de perfil, planejamento; 2ª etapa: captação, edição, copy/legenda, artes, agendamento, métricas), Fotografia publicitária de alimentos (PornFood), Identidade visual, Fotos profissionais para empresas.
 - Posts de referência vistos na grade: Quem somos; Marketing x Branding; Tipos de conteúdo que você precisa postar; Antes x Depois; Frases frequentes de uma agência gaúcha; Feedback do cliente; datas regionais (Dia do Gaúcho, 20/set).
 - Drive: pasta compartilhada contém a subpasta "INTEGRAÇÃO SM", que aparece vazia/sem acesso na leitura.
+
+## CADÊNCIA FIXA DA CONTA (definida pela usuária em 14/10/2026) — vale para todos os meses
+- 1 Reels por semana + 1 post estático por semana (preferência: carrossel) = 2 posts de feed por semana
+- 10 Stories por mês, distribuídos nos dias sem post de feed, nos dias em que fazem sentido
+- Isto substitui a cadência de 3 posts por semana citada no documento de contexto.
+- Calendário de novembro/2026 no Canva: design "Calendário Editorial JBG" (DAHX7HRO4tc), página 1.
+- Modelo de layout (NÃO editar): DAHXJ71rE98.

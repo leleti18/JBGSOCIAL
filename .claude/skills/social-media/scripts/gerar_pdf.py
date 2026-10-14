@@ -11,7 +11,7 @@ from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import cm
-from reportlab.platypus import (PageBreak, Paragraph, SimpleDocTemplate,
+from reportlab.platypus import (KeepTogether, PageBreak, Paragraph, SimpleDocTemplate,
                                 Spacer, Table, TableStyle)
 
 ACCENT = colors.HexColor("#6C3CE1")
@@ -78,11 +78,13 @@ def build(data, out):
     s.append(Spacer(1, 0.4 * cm))
 
     posts = data.get("posts", [])
+    stories = data.get("stories", [])
     s.append(p("Calendário", H2))
-    s.append(grid(["Data", "Rede", "Formato", "Pilar", "Tema"],
-                  [[x.get("data"), x.get("plataforma"), x.get("formato"),
-                    x.get("pilar"), x.get("tema")] for x in posts],
-                  [2.3 * cm, 2.5 * cm, 2.7 * cm, 3.2 * cm, 5.8 * cm]))
+    itens = [[x.get("data"), x.get("dia"), x.get("formato"), x.get("pilar"), x.get("tema")] for x in posts]
+    itens += [[x.get("data"), x.get("dia"), "Stories", x.get("tipo"), x.get("tema")] for x in stories]
+    itens.sort(key=lambda r: r[0])
+    s.append(grid(["Data", "Dia", "Formato", "Pilar / tipo", "Tema"], itens,
+                  [2.3 * cm, 1.3 * cm, 3 * cm, 3.4 * cm, 6.5 * cm]))
 
     for i, x in enumerate(posts, 1):
         s += [PageBreak(),
@@ -90,6 +92,7 @@ def build(data, out):
               p(f"{x.get('data')} · {x.get('plataforma')} · {x.get('formato')}", SMALL),
               Spacer(1, 0.3 * cm),
               kv_table([("Pilar", x.get("pilar")), ("Objetivo", x.get("objetivo")),
+                        ("Por que nesse dia", x.get("por_que_dia")),
                         ("Gancho", x.get("gancho")), ("CTA", x.get("cta")),
                         ("Direção de arte", x.get("direcao_arte")),
                         ("Áudio", x.get("audio")),
@@ -106,6 +109,20 @@ def build(data, out):
               p(" ".join(x.get("hashtags", [])), SMALL)]
         if x.get("observacoes"):
             s += [p("Observações", H2), p(x["observacoes"])]
+
+    if stories:
+        s += [PageBreak(), p("Stories do mês", H2),
+              p(data.get("stories_intro", ""), BODY), Spacer(1, 0.3 * cm)]
+        for i, x in enumerate(stories, 1):
+            bloco = [p(f"Story {i} — {x.get('tema')}", H2),
+                     p(f"{x.get('data')} ({x.get('dia')}) · {x.get('tipo')}", SMALL), Spacer(1, 0.2 * cm),
+                     kv_table([("Objetivo", x.get("objetivo")), ("Por que nesse dia", x.get("por_que_dia")),
+                               ("Telas", "\n".join(x.get("telas", []))),
+                               ("Interação", x.get("interacao")), ("CTA", x.get("cta")),
+                               ("Direção de arte", x.get("direcao_arte")),
+                               ("Responsável", x.get("responsavel")), ("Depende de", x.get("dependencia"))]),
+                     Spacer(1, 0.4 * cm)]
+            s.append(KeepTogether(bloco))
 
     if data.get("metricas"):
         s += [PageBreak(), p("Métricas e revisão do mês", H2)]
